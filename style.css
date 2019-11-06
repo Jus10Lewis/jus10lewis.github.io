@@ -1,0 +1,135 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: #444444;
+}
+
+header {
+    background: #444444;
+    color: #dddddd;
+    text-align: center;
+}
+
+header h1{
+    border-bottom: #dddddd 1px solid;
+    font-size: 4em;
+}
+
+#header-img {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    opacity: .5;
+}
+
+nav {
+    background: #444444;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    /* border: 1px #dddddd solid; */
+
+}
+
+nav li:hover{
+    background: #999999;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+nav a:link{
+    color: #dddddd;
+}
+
+nav a:visited{
+    color: #dddddd;
+}
+
+nav a:hover{
+    color: #444444;
+}
+
+#wrapper {
+    background: #dddddd;
+    overflow: auto;
+}
+
+article {
+    border-right: 2px #444444 dotted;
+    width: 40%;
+    padding: 20px;
+    float: left;
+    min-height: 1000px;
+    background-image: url("./images/biohazard.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    background-attachment: fixed;
+    
+}
+
+aside{
+    list-style-position: inside;
+    width: 20%;
+    padding: 20px;
+    float: left;
+    background: #999999;
+    min-height: 1000px;
+}
+
+aside img{
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+#spacer{
+    height: 100px;
+    background: #dddddd;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 50;
+    
+    padding: 30px;
+    background: #444444;
+    color: #dddddd;
+    text-align: center;
+
+}
+
+footer a:link{
+    color: #dddddd;
+}
+
+footer a:visited{
+    color: #dddddd;
+}
+
+footer a:hover{
+    color: #444444;
+}
+
